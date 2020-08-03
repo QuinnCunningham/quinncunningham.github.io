@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,900&display=swap');
 
 
-.container{ 
-    background-color: #676767;
-    width: 100%;
-
-
+.container-fluid { 
+    background-color: #fbd544;
 }
+
+.row{
+
+    width: 100%;
+}
+
 header {
   padding: 5px;
   text-align: center;
@@ -48,4 +51,11 @@ nav a:hover {
 nav a:active {
   background-color: #fff;
   color: #444;
+}
+
+.logo{
+    background: url("assets/images/portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
