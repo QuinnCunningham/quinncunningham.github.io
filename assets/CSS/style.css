@@ -1,24 +1,46 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,900&display=swap');
 
-
-.container-fluid { 
-    background-color: #fbd544;
-}
-
-.row{
-
-    width: 100%;
+body{
+    margin-bottom:50px;
+    background-color: black;
 }
 
 header {
   padding: 5px;
   text-align: center;
-  background: #5f6361;
-  color:black;
+  background:black;
+  color:white;
   font-size: 30px;
   font-family: 'Merriweather', serif;
+}
+
+.footer-site{
+    height: 100px;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+/* this is a comment*/
+
+.container-fluid { 
+    background-color: white;
+}
+
+.row{
+     width: 100%;
+}
+
+.logo{
+    background: url("assets/images/portfolio1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -32,30 +54,27 @@ nav ul {
 nav li {
   font-size: 1.2em;
   line-height: 40px;
+  padding: 35px;
   height: 40px;
   display: inline-block;
   font-family: 'Merriweather', serif;
 }
- 
+
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   display: block;
 }
 
 nav a:hover {
-  background-color: #fff;
-  color: #4a4a4f;
+  background-color:black;
+  color: white;
 }
  
 nav a:active {
-  background-color: #fff;
-  color: #444;
+  background-color:black;
+  color: white;
 }
 
-.logo{
-    background: url("assets/images/portfolio.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+
