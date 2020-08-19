@@ -3,13 +3,13 @@
 
 body{
     margin-bottom:50px;
-    background-color: black;
+    background: #0f0f0f;
 }
 
 header {
   padding: 5px;
   text-align: center;
-  background:black;
+  background: #0f0f0f;
   color:white;
   font-size: 30px;
   font-family: 'Merriweather', serif;
@@ -17,7 +17,8 @@ header {
 
 .footer-site{
     height: 100px;
-    background-color: black;
+    position: fixed;
+    background:#0f0f0f;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -28,21 +29,33 @@ header {
 
 /* this is a comment*/
 
-.container-fluid { 
-    background-color: white;
+.col{
+    float: left;
+    width: 33.3%;
+    background: #292929;
+    color: white;
+    text-align: center;
+    height: auto;
 }
 
-.row{
-     width: 100%;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.logo{
-    background: url("assets/images/portfolio1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+.portfolio-image{
+    margin: auto;
 }
 
+.portfolio2-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
 
 nav ul {
   list-style: none;
@@ -52,12 +65,16 @@ nav ul {
 }
 
 nav li {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 40px;
-  padding: 35px;
   height: 40px;
   display: inline-block;
   font-family: 'Merriweather', serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  
 }
 
 nav a {
@@ -67,14 +84,17 @@ nav a {
 }
 
 nav a:hover {
-  background-color:black;
+  background-color: #0f0f0f;
   color: white;
 }
  
+
 nav a:active {
-  background-color:black;
+  background-color: white;
   color: white;
 }
 
-
+.nav-home{
+    border-bottom: 2px solid white;
+}
 
