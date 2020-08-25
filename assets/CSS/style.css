@@ -4,6 +4,7 @@
 body{
     margin-bottom:50px;
     background: #0f0f0f;
+    font-size: 20px;
 }
 
 header {
@@ -36,6 +37,7 @@ header {
     color: white;
     text-align: center;
     height: auto;
+    font-size: 18px;
 }
 
 .row:after {
@@ -94,7 +96,10 @@ nav a:active {
   color: white;
 }
 
-.nav-home{
-    border-bottom: 2px solid white;
-}
 
+.contact-content{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+
+}
