@@ -6,7 +6,7 @@ My user centric frontend development milestone project is a portfolio based on m
 In esscense it should be quick to read and give the employers a good idea of how i and my talents.
 
 Live Demo
-A live version can be found here https://quinncunningham.github.io/index.html.
+A live version can be found here https://quinncunningham.github.io/
 It is hosted with github pages.
 
 Features
